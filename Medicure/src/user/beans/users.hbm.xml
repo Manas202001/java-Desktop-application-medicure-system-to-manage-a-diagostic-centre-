@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="user.beans">
+  <class name="Users" table="Users">
+    <id column="aadharNo" name="aadharNo"/>
+    <property column="fName" name="fName"/>
+    <property column="lName" name="lName"/>
+    <property column="age" name="age"/>
+    <property column="testName" name="testName"/>
+    <property column="mobileNo1" name="mobileNo1"/>
+    <property column="mobileNo2" name="mobileNo2"/>
+    <property column="address" name="address"/>
+    <property column="city" name="city"/>
+    <property column="state" name="state"/>
+    <property column="country" name="country"/>
+    <property column="attendence" name="attendence"/>
+  </class>
+</hibernate-mapping>
